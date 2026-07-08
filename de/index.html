@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Driven Spaces — Automobile Architektur &amp; Design</title>
+<meta name="description" content="Driven Spaces gestaltet Innenräume ausschließlich für die Automobilwelt — Autohaus-Showrooms, Messestände und private Sammlergaragen, gebaut um eine einzige Idee: Das Auto ist das Kunstwerk, der Raum ist der Rahmen.">
+
+<!-- NOTE: URLs below use the current live GitHub Pages domain.
+     Once you point a custom domain at this site, update this canonical,
+     the og:url/og:image, and every hreflang href (in ALL five language
+     files) to the new domain. -->
+<link rel="canonical" href="https://angelikaugustynx.github.io/de/">
+
+<link rel="alternate" hreflang="en" href="https://angelikaugustynx.github.io/">
+<link rel="alternate" hreflang="pl" href="https://angelikaugustynx.github.io/pl/">
+<link rel="alternate" hreflang="de" href="https://angelikaugustynx.github.io/de/">
+<link rel="alternate" hreflang="fr" href="https://angelikaugustynx.github.io/fr/">
+<link rel="alternate" hreflang="it" href="https://angelikaugustynx.github.io/it/">
+<link rel="alternate" hreflang="x-default" href="https://angelikaugustynx.github.io/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Driven Spaces — Automobile Architektur & Design">
+<meta property="og:description" content="Innenarchitektur für Autohaus-Showrooms, Messestände und private Sammlergaragen.">
+<meta property="og:url" content="https://angelikaugustynx.github.io/de/">
+<meta property="og:image" content="https://angelikaugustynx.github.io/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- GOOGLE SEARCH CONSOLE: paste the verification meta tag GSC gives you here, e.g.
+<meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE"> -->
+
+<!-- GOOGLE ANALYTICS (GA4): uncomment and replace G-XXXXXXXXXX with your Measurement ID
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Driven Spaces",
+  "description": "Studio für Innenarchitektur und Raumgestaltung, ausschließlich tätig in der Automobilwelt.",
+  "url": "https://angelikaugustynx.github.io/de/",
+  "areaServed": "Europa",
+  "serviceType": ["Gestaltung von Autohaus-Showrooms", "Automobile Messestände", "Gestaltung privater Sammlergaragen"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+/* ================= ROOT / RESET ================= */
+:root{
+  --c-light:#d4d4d4;
+  --c-mid:#a3a3a3;
+  --c-anthracite:#232323;
+  --c-black:#000000;
+  --c-red:#e61919;
+  --maxw:1240px;
+}
+*{ box-sizing:border-box; margin:0; padding:0; }
+html{ scroll-behavior:smooth; }
+body{
+  background:var(--c-black); color:var(--c-light); font-family:'Space Grotesk', Arial, sans-serif;
+  font-weight:300; line-height:1.6; overflow-x:hidden;
+}
+img{ max-width:100%; display:block; }
+a{ color:inherit; text-decoration:none; }
+ul{ list-style:none; }
+.wrap{ max-width:var(--maxw); margin:0 auto; padding:0 32px; }
+section{ position:relative; }
+.kicker{
+  font-size:11px; font-weight:600; letter-spacing:4px; text-transform:uppercase; color:var(--c-red);
+  display:inline-flex; align-items:center; gap:8px; margin-bottom:18px;
+}
+.kicker::before{ content:''; width:22px; height:1px; background:var(--c-red); display:inline-block; }
+h1,h2,h3{ font-family:'Space Grotesk',sans-serif; text-transform:uppercase; color:#fff; font-weight:700; letter-spacing:0.5px; }
+h2{ font-size:clamp(28px,4vw,44px); line-height:1.08; }
+h3{ font-size:19px; letter-spacing:0.5px; }
+p{ color:var(--c-mid); font-weight:300; }
+.lede{ font-size:17px; max-width:640px; line-height:1.7; }
+.btn{
+  display:inline-flex; align-items:center; gap:10px; padding:15px 30px; border:1px solid var(--c-red);
+  color:#fff; font-size:12px; font-weight:600; letter-spacing:2px; text-transform:uppercase; background:transparent;
+  cursor:pointer; transition:background .25s ease, color .25s ease;
+  font-family:'Space Grotesk',sans-serif;
+}
+.btn:hover{ background:var(--c-red); }
+.btn.ghost{ border-color:#3a3a3a; }
+.btn.ghost:hover{ background:#fff; border-color:#fff; color:#000; }
+.section-pad{ padding:120px 0; }
+@media(max-width:768px){ .section-pad{ padding:72px 0; } .wrap{ padding:0 20px; } }
+
+/* ---------- logo ---------- */
+.hex-mark{ display:inline-flex; }
+.wordmark{ font-weight:700; text-transform:uppercase; line-height:0.95; letter-spacing:0.5px; font-size:15px; }
+.wordmark span{ display:block; font-weight:400; }
+.brand-lockup{ display:flex; align-items:center; gap:10px; }
+
+/* ---------- placeholder blocks ---------- */
+.placeholder{
+  border:1.5px dashed #4a4a4a; background:repeating-linear-gradient(135deg,#0a0a0a 0 12px,#0d0d0d 12px 24px);
+  display:flex; align-items:center; justify-content:center; text-align:center; color:#6b6b6b;
+  font-size:11px; letter-spacing:1.5px; text-transform:uppercase; padding:24px; min-height:220px;
+}
+.placeholder span{ max-width:320px; }
+.placeholder::before{ content:'\2b1a  '; }
+
+/* ================= NAV ================= */
+header{
+  position:fixed; top:0; left:0; right:0; z-index:100; padding:22px 0;
+  transition:background .3s ease, padding .3s ease, border-color .3s ease;
+  border-bottom:1px solid transparent;
+}
+header.scrolled{ background:rgba(0,0,0,0.92); backdrop-filter:blur(6px); padding:14px 0; border-color:var(--c-anthracite); }
+nav.wrap{ display:flex; align-items:center; justify-content:space-between; }
+.nav-links{ display:flex; gap:36px; align-items:center; }
+.nav-links a{ font-size:12px; letter-spacing:2px; text-transform:uppercase; font-weight:500; color:var(--c-mid); transition:color .2s; }
+.nav-links a:hover{ color:#fff; }
+.nav-toggle{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:6px; }
+.nav-toggle span{ width:22px; height:2px; background:#fff; display:block; }
+@media(max-width:860px){
+  .nav-links{
+    position:fixed; top:0; right:0; height:100vh; width:min(300px,80vw); background:#000; border-left:1px solid var(--c-anthracite);
+    flex-direction:column; justify-content:center; align-items:flex-start; padding:0 40px;
+    transform:translateX(100%); transition:transform .35s ease; gap:28px;
+  }
+  .nav-links.open{ transform:translateX(0); }
+  .nav-toggle{ display:flex; }
+}
+
+/* ---------- language switcher ---------- */
+.lang-switcher{ position:relative; }
+.lang-current{
+  display:inline-flex; align-items:center; gap:5px; background:none; border:none; cursor:pointer;
+  font-family:'Space Grotesk',sans-serif; font-size:12px; letter-spacing:2px; text-transform:uppercase;
+  font-weight:500; color:var(--c-mid); padding:0; transition:color .2s;
+}
+.lang-current:hover{ color:#fff; }
+.lang-dropdown{
+  position:absolute; top:calc(100% + 16px); right:0; background:#0a0a0a; border:1px solid var(--c-anthracite);
+  min-width:132px; opacity:0; visibility:hidden; transform:translateY(-6px);
+  transition:opacity .2s ease, transform .2s ease, visibility .2s; z-index:200;
+}
+.lang-switcher:hover .lang-dropdown, .lang-switcher.open .lang-dropdown{ opacity:1; visibility:visible; transform:translateY(0); }
+.lang-dropdown a{ display:block; padding:11px 16px; font-size:12px; letter-spacing:1px; color:var(--c-mid); border-bottom:1px solid #161616; }
+.lang-dropdown a:last-child{ border-bottom:none; }
+.lang-dropdown a:hover{ background:#151515; color:#fff; }
+.lang-dropdown a.active{ color:var(--c-red); }
+@media(max-width:860px){
+  .lang-dropdown{ position:static; opacity:1; visibility:visible; transform:none; border:none; background:none; margin-top:16px; min-width:0; }
+  .lang-current{ pointer-events:none; }
+  .lang-switcher{ display:flex; flex-direction:column; align-items:flex-start; }
+}
+
+/* ================= HERO ================= */
+.hero{
+  min-height:100vh; display:flex; align-items:center; position:relative;
+  background:
+    radial-gradient(ellipse at 75% 20%, rgba(230,25,25,0.16), transparent 55%),
+    linear-gradient(150deg, #1a0505 0%, #050505 32%, #000 70%);
+  padding-top:120px;
+}
+.hero .grid-lines{
+  position:absolute; inset:0; opacity:0.4; pointer-events:none;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 120px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 120px);
+}
+.hero-grid{ display:grid; grid-template-columns:1.2fr 0.8fr; gap:60px; align-items:center; position:relative; z-index:2; }
+.hero-eyebrow{ color:#fff; font-size:12px; letter-spacing:4px; text-transform:uppercase; opacity:0.8; margin-bottom:18px; font-weight:500;}
+.hero h1{ font-size:clamp(38px,6vw,68px); line-height:0.98; }
+.hero h1 .tagline-slot{ color:var(--c-red); display:inline-block; min-width:1px; }
+.hero .lede{ margin-top:26px; color:var(--c-mid); }
+.hero-cta{ display:flex; gap:16px; margin-top:40px; flex-wrap:wrap; }
+.hero-visual .placeholder{ aspect-ratio:4/5; min-height:auto; }
+@media(max-width:900px){ .hero-grid{ grid-template-columns:1fr; } }
+
+.scroll-cue{
+  position:absolute; bottom:34px; left:50%; transform:translateX(-50%); z-index:2;
+  font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--c-mid); display:flex; flex-direction:column; align-items:center; gap:10px;
+}
+.scroll-cue .line{ width:1px; height:38px; background:linear-gradient(#e61919, transparent); animation:pulse 2s ease-in-out infinite; }
+@keyframes pulse{ 0%,100%{opacity:.3;} 50%{opacity:1;} }
+
+/* ================= INTRO / BRAND STORY ================= */
+.intro-grid{ display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:start; }
+.intro-grid h2{ margin-bottom:22px; }
+.taglines-row{ display:flex; flex-wrap:wrap; gap:12px; margin-top:34px; }
+.tag-chip{
+  border:1px solid var(--c-anthracite); padding:10px 18px; font-size:11px; letter-spacing:1.5px; text-transform:uppercase;
+  color:var(--c-light); font-weight:500;
+}
+.stat-row{ display:flex; gap:48px; margin-top:46px; flex-wrap:wrap; }
+.stat{ }
+.stat b{ display:block; font-size:30px; color:#fff; font-weight:700; }
+.stat span{ font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--c-mid); }
+
+/* ================= PILLARS ================= */
+.pillars-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:var(--c-anthracite); margin-top:56px; }
+.pillar{ background:#000; padding:44px 34px; transition:background .3s ease; position:relative; overflow:hidden; }
+.pillar:hover{ background:#0a0a0a; }
+.pillar:hover .pillar-num{ color:var(--c-red); }
+.pillar-num{ font-size:12px; letter-spacing:2px; color:var(--c-mid); font-weight:700; transition:color .3s; }
+.pillar h3{ margin-top:20px; }
+.pillar p{ margin-top:16px; font-size:14.5px; }
+.pillar-tag{ display:inline-block; margin-top:24px; font-size:10.5px; letter-spacing:2px; text-transform:uppercase; color:var(--c-red); font-weight:700; }
+@media(max-width:860px){ .pillars-grid{ grid-template-columns:1fr; } }
+
+/* ================= CASE STUDY ================= */
+.case-study{ background:#050505; border-top:1px solid var(--c-anthracite); border-bottom:1px solid var(--c-anthracite); }
+.case-visual{
+  position:relative; height:420px; border:1px solid var(--c-anthracite); overflow:hidden; margin-top:40px;
+  background:linear-gradient(100deg,#020202 0%, #171717 55%, #000 100%);
+}
+.case-visual .softbox{
+  position:absolute; top:38px; left:50%; transform:translateX(-50%); width:280px; height:34px; background:#eee;
+  box-shadow:0 0 90px 24px rgba(255,255,255,0.22); border-radius:2px;
+}
+.case-visual .dot{ position:absolute; width:8px; height:8px; border-radius:50%; background:var(--c-red); top:30px; box-shadow:0 0 8px var(--c-red); }
+.case-visual .redline{
+  position:absolute; bottom:70px; left:110px; right:110px; height:3px; background:var(--c-red); box-shadow:0 0 20px var(--c-red);
+}
+.case-visual .caption-tag{
+  position:absolute; bottom:16px; left:16px; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#666;
+}
+.case-standfirst{ font-size:20px; color:#fff; font-style:italic; font-weight:300; max-width:760px; margin-top:22px; line-height:1.6; }
+.spec-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:0; margin-top:56px; border-top:1px solid var(--c-anthracite); }
+.spec-item{ padding:22px 0; border-bottom:1px solid var(--c-anthracite); display:flex; gap:24px; }
+.spec-item:nth-child(odd){ padding-right:30px; border-right:1px solid var(--c-anthracite); }
+.spec-item:nth-child(even){ padding-left:30px; }
+.spec-key{ width:130px; flex-shrink:0; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--c-red); font-weight:700; }
+.spec-val{ font-size:14.5px; color:var(--c-light); }
+@media(max-width:768px){ .spec-grid{ grid-template-columns:1fr; } .spec-item:nth-child(odd){ border-right:none; padding-right:0; } .spec-item:nth-child(even){ padding-left:0; } }
+
+.gallery-thumbs{ display:grid; grid-template-columns:repeat(3,1fr); gap:2px; margin-top:16px; }
+.gallery-thumbs .placeholder{ min-height:140px; font-size:9.5px; }
+
+/* ================= GALLERY ================= */
+.filter-row{ display:flex; gap:10px; flex-wrap:wrap; margin:44px 0 4px; }
+.filter-btn{
+  background:none; border:1px solid var(--c-anthracite); color:var(--c-mid); font-family:'Space Grotesk',sans-serif;
+  font-size:11px; letter-spacing:2px; text-transform:uppercase; padding:10px 20px; cursor:pointer; transition:all .2s;
+}
+.filter-btn:hover{ color:#fff; border-color:#555; }
+.filter-btn.active{ background:var(--c-red); border-color:var(--c-red); color:#fff; }
+.gallery-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:3px; margin-top:34px; }
+.gallery-item{ position:relative; }
+.gallery-item .placeholder{ aspect-ratio:4/5; min-height:auto; font-size:10px; }
+.gallery-item .meta{ margin-top:10px; }
+.gallery-item .meta .g-cat{ font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--c-red); font-weight:700; }
+.gallery-item .meta .g-title{ font-size:14px; color:#fff; margin-top:4px; font-weight:500; text-transform:uppercase; letter-spacing:0.5px; }
+.gallery-item.hide{ display:none; }
+@media(max-width:860px){ .gallery-grid{ grid-template-columns:1fr 1fr; } }
+@media(max-width:560px){ .gallery-grid{ grid-template-columns:1fr; } }
+
+/* ================= MATERIALS STRIP ================= */
+.mat-strip{ display:grid; grid-template-columns:repeat(5,1fr); border:1px solid var(--c-anthracite); margin-top:50px; }
+.mat-chip{ padding:26px 20px; border-right:1px solid var(--c-anthracite); }
+.mat-chip:last-child{ border-right:none; }
+.mat-swatch{ height:14px; margin-bottom:14px; }
+.mat-chip h4{ font-size:11.5px; text-transform:uppercase; color:#fff; letter-spacing:0.5px; font-weight:600; }
+.mat-chip p{ font-size:12px; margin-top:8px; }
+@media(max-width:860px){ .mat-strip{ grid-template-columns:1fr 1fr; } .mat-chip{ border-right:none; border-bottom:1px solid var(--c-anthracite); } }
+@media(max-width:560px){ .mat-strip{ grid-template-columns:1fr; } }
+
+/* ================= CONTACT ================= */
+.contact{ background:linear-gradient(180deg,#000 0%, #0d0303 100%); border-top:1px solid var(--c-anthracite); }
+.contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:70px; }
+.field{ margin-bottom:22px; }
+.field label{ display:block; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--c-mid); margin-bottom:10px; }
+.field input, .field select, .field textarea{
+  width:100%; background:transparent; border:none; border-bottom:1px solid var(--c-anthracite); color:#fff;
+  font-family:'Space Grotesk',sans-serif; font-size:15px; padding:10px 2px; outline:none; transition:border-color .2s;
+}
+.field input:focus, .field select:focus, .field textarea:focus{ border-color:var(--c-red); }
+.field select{ appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23a3a3a3'%3E%3Cpath d='M5 7l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 2px center; }
+.field select option{ background:#111; color:#fff; }
+textarea{ resize:vertical; min-height:90px; font-family:'Space Grotesk',sans-serif; }
+.contact-info{ margin-top:10px; }
+.contact-info .row{ display:flex; justify-content:space-between; padding:16px 0; border-bottom:1px solid var(--c-anthracite); font-size:13px; }
+.contact-info .row span:first-child{ color:var(--c-mid); letter-spacing:1.5px; text-transform:uppercase; font-size:11px; }
+.contact-info .row span:last-child{ color:#fff; }
+.social-row{ display:flex; gap:22px; margin-top:26px; }
+.social-row a{ font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--c-mid); border-bottom:1px solid transparent; padding-bottom:2px; transition:.2s; }
+.social-row a:hover{ color:#fff; border-color:var(--c-red); }
+.form-msg{ margin-top:16px; font-size:12.5px; color:var(--c-red); display:none; letter-spacing:0.5px; }
+.form-msg.show{ display:block; }
+
+/* ================= FOOTER ================= */
+footer{ padding:50px 0 34px; border-top:1px solid var(--c-anthracite); }
+.footer-top{ display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:30px; }
+.footer-links{ display:flex; gap:56px; }
+.footer-links > div{ width:150px; flex-shrink:0; }
+@media(max-width:480px){ .footer-links{ flex-direction:column; gap:32px; } .footer-links > div{ width:auto; } }
+.footer-links ul{ display:flex; flex-direction:column; gap:12px; }
+.footer-links a{ font-size:12.5px; color:var(--c-mid); letter-spacing:0.5px; }
+.footer-links a:hover{ color:#fff; }
+.footer-links h5{ font-size:10.5px; letter-spacing:2px; text-transform:uppercase; color:#5a5a5a; margin-bottom:16px; }
+.footer-bottom{ margin-top:56px; padding-top:24px; border-top:1px solid #161616; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:11px; color:#5a5a5a; letter-spacing:0.5px; }
+
+/* ---------- reveal on scroll ---------- */
+.reveal{ opacity:0; transform:translateY(28px); transition:opacity .7s ease, transform .7s ease; }
+.reveal.in{ opacity:1; transform:translateY(0); }
+
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="#top" class="brand-lockup">
+      <span class="hex-mark">
+        <svg width="30" height="30" viewBox="0 0 200 200"><path d="M 13.4,50 L 13.4,150 L 100,200 L 186.6,150 L 186.6,50 L 100,0" fill="none" stroke="#a3a3a3" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/><path d="M 100,0 L 13.4,50" fill="none" stroke="#e61919" stroke-width="16" stroke-linecap="round"/></svg>
+      </span>
+      <span class="wordmark">DRIVEN<span>SPACES</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#services">Leistungen</a></li>
+      <li><a href="#case-study">Fallstudie</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li class="lang-switcher" id="langSwitcher">
+        <button type="button" class="lang-current" id="langCurrent" aria-haspopup="true" aria-expanded="false">
+          DE
+          <svg width="9" height="6" viewBox="0 0 9 6"><path d="M1 1l3.5 3.5L8 1" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="lang-dropdown">
+          <a href="/">English</a>
+          <a href="/pl/">Polski</a>
+          <a href="/de/" class="active">Deutsch</a>
+          <a href="/fr/">Français</a>
+          <a href="/it/">Italiano</a>
+        </div>
+      </li>
+      <li><a href="#contact" class="btn" style="padding:10px 20px;">Projekt starten</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="grid-lines"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-eyebrow">Innenarchitektur &amp; Raumgestaltung</div>
+      <h1>Das Auto ist das Kunstwerk.<br>Wir bauen <span class="tagline-slot" id="taglineSlot">den Rahmen</span><span style="color:var(--c-red);">.</span></h1>
+      <p class="lede">Driven Spaces gestaltet Innenräume ausschließlich für die Automobilwelt — Autohaus-Showrooms, Messestände und private Sammlergaragen, konzipiert für Kunden, die ein Auto als technisches Kunstwerk begreifen.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn">Projekt starten</a>
+        <a href="#case-study" class="btn ghost">Fallstudie ansehen</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="placeholder"><span>[PLACEHOLDER: Hero-Render — dunkler Showroom, ein einzeln beleuchtetes Fahrzeug, 1920×1080]</span></div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scrollen</span><span class="line"></span></div>
+</section>
+
+<!-- ============ BRAND INTRO / STORY ============ -->
+<section class="section-pad" id="studio">
+  <div class="wrap">
+    <div class="intro-grid">
+      <div class="reveal">
+        <div class="kicker">Studio</div>
+        <h2>Ingenieurspräzision.<br>Automobile Besessenheit.</h2>
+      </div>
+      <div class="reveal">
+        <p class="lede">Driven Spaces ist ein Studio für Innenarchitektur und Raumgestaltung, das ausschließlich in der Automobilwelt tätig ist — nur im Premium- und Luxussegment. Wir gestalten keine Wohnhäuser, Büros oder Einzelhandelsflächen außerhalb der Automobilbranche. Genau diese Beschränkung ist der Kern unseres Ansatzes: vollständige Beherrschung einer einzigen Disziplin, angewendet auf drei Leistungsbereiche.</p>
+        <p class="lede" style="margin-top:18px;">Kantenlicht zeichnet die Dachlinie nach; der Harzboden gibt es zurück. Nichts im Raum konkurriert mit dem Auto — alles im Raum verweist auf es.</p>
+
+        <div class="taglines-row">
+          <span class="tag-chip">Automobile Architektur &amp; Design</span>
+          <span class="tag-chip">Studio für Motor- und Raumgestaltung</span>
+          <span class="tag-chip">Automobile Präsentation auf neuem Niveau</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE PILLARS ============ -->
+<section class="section-pad" id="services" style="background:#030303;border-top:1px solid var(--c-anthracite);border-bottom:1px solid var(--c-anthracite);">
+  <div class="wrap">
+    <div class="kicker reveal">Leistungen</div>
+    <h2 class="reveal">Drei Wege, mit uns zu arbeiten</h2>
+    <p class="lede reveal" style="margin-top:18px;">Sagen Sie uns, was zu Ihrem Projekt passt — der Raum, der Stand oder die Garage — und wir übernehmen den Rest.</p>
+
+    <div class="pillars-grid reveal">
+      <div class="pillar">
+        <div class="pillar-num">01</div>
+        <h3>Handel &amp; Einzelhandel</h3>
+        <p>Sie brauchen einen Showroom, der Autos verkauft, nicht nur zeigt. Wir gestalten autorisierte Autohaus-Flächen nach den Markenrichtlinien der Hersteller sowie unabhängige Boutiquen entlang der gesamten Kundenreise — vom ersten Betreten bis zur Übergabe des Fahrzeugs.</p>
+        <span class="pillar-tag">Autohäuser &amp; Boutiquen</span>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">02</div>
+        <h3>Ausstellungen &amp; Events</h3>
+        <p>Sie bringen ein einzelnes Modell auf den Markt oder präsentieren es, und es muss einen ganzen Raum in seinen Bann ziehen. Wir bauen exklusive, temporäre Messestände rund um die Inszenierung eines einzelnen Modells — „The Spotlight" — für Markteinführungen und Flaggschiff-Präsentationen.</p>
+        <span class="pillar-tag">Messen &amp; Markteinführungen</span>
+      </div>
+      <div class="pillar">
+        <div class="pillar-num">03</div>
+        <h3>Private Sammlergaragen</h3>
+        <p>Sie haben eine Sammlung aufgebaut, mit der es sich zu leben lohnt. Wir gestalten private „Car Caves", integriert mit Lounge- und Entertainmentbereich, damit der Raum dem gerecht wird, was darin steht.</p>
+        <span class="pillar-tag">Private Sammler</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CASE STUDY ============ -->
+<section class="section-pad case-study" id="case-study">
+  <div class="wrap">
+    <div class="kicker reveal">Fallstudie</div>
+    <h2 class="reveal">The Dark Room Reveal</h2>
+    <p class="case-standfirst reveal">Führen Sie einen Käufer in diesen Raum, und es gibt nichts anderes zu sehen. Eine Lichtquelle, eine rote Linie, ein Auto — bis er dort ankommt, hat sich das Auto bereits selbst zu verkaufen begonnen.</p>
+
+    <div class="case-visual reveal">
+      <div class="softbox"></div>
+      <div class="dot" style="left:38%;"></div>
+      <div class="dot" style="left:44%;"></div>
+      <div class="dot" style="right:44%;"></div>
+      <div class="dot" style="right:38%;"></div>
+      <div class="redline"></div>
+      <div class="caption-tag">[PLACEHOLDER: The Dark Room Reveal — Hero-Render, 1920×1080]</div>
+    </div>
+
+    <p class="lede reveal" style="margin-top:36px;">Die Aufgabe: ein neues Porsche 911 Carrera so zu inszenieren, dass ein Käufer stehen bleibt, verweilt und sich erinnert. Die Antwort war nicht mehr, sondern weniger. Eine einzelne Deckenleuchte, Wandpaneele, die dunkel genug sind, um zu verschwinden, und eine rote Lichtlinie, entlehnt von der eigenen Heckleuchte des Autos. Nichts konkurriert mit dem Auto, also lenkt nichts den Käufer davon ab.</p>
+
+    <div class="spec-grid reveal">
+      <div class="spec-item"><div class="spec-key">Fahrzeug</div><div class="spec-val">Porsche 911 Carrera, in Rot lackiert</div></div>
+      <div class="spec-item"><div class="spec-key">Ziel</div><div class="spec-val">Volle Aufmerksamkeit des Käufers auf ein Auto lenken</div></div>
+      <div class="spec-item"><div class="spec-key">Wände</div><div class="spec-val">Geriffelte Paneele, dunkelgrau, reflexionsarm</div></div>
+      <div class="spec-item"><div class="spec-key">Boden</div><div class="spec-val">Schwarz, hochglänzend — spiegelt das Auto zum Käufer zurück</div></div>
+      <div class="spec-item"><div class="spec-key">Beleuchtung</div><div class="spec-val">Rechteckige Deckenleuchte, 4-Punkt-LED-Detail als Anlehnung an die Porsche-Scheinwerfersignatur</div></div>
+      <div class="spec-item"><div class="spec-key">Akzent</div><div class="spec-val">Einzelne dünne rote Lichtlinie, angelehnt an die Heckleuchte des Autos</div></div>
+    </div>
+
+    <div class="gallery-thumbs reveal">
+      <div class="placeholder"><span>[PLACEHOLDER: Detail — 4-Punkt-LED-Signatur, 800×600]</span></div>
+      <div class="placeholder"><span>[PLACEHOLDER: Detail — Bodenspiegelung, 800×600]</span></div>
+      <div class="placeholder"><span>[PLACEHOLDER: Detail — rote Akzentlinie, 800×600]</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section-pad" id="gallery">
+  <div class="wrap">
+    <div class="kicker reveal">Ausgewählte Arbeiten</div>
+    <h2 class="reveal">Galerie</h2>
+    <p class="lede reveal" style="margin-top:18px;">Eine anonyme, kuratierte Sammlung von Räumen rund um Autos — gefiltert nach Bereich.</p>
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all">Alle</button>
+      <button class="filter-btn" data-filter="commercial">Handel &amp; Einzelhandel</button>
+      <button class="filter-btn" data-filter="exhibition">Ausstellungen &amp; Events</button>
+      <button class="filter-btn" data-filter="private">Private Garagen</button>
+    </div>
+
+    <div class="gallery-grid reveal" id="galleryGrid">
+      <div class="gallery-item" data-cat="exhibition">
+        <div class="placeholder"><span>[PLACEHOLDER: The Dark Room Reveal — Render, 1200×1500]</span></div>
+        <div class="meta"><div class="g-cat">Ausstellungen &amp; Events</div><div class="g-title">The Dark Room Reveal</div></div>
+      </div>
+      <div class="gallery-item" data-cat="commercial">
+        <div class="placeholder"><span>[PLACEHOLDER: unabhängiger Boutique-Showroom — Render, 1200×1500]</span></div>
+        <div class="meta"><div class="g-cat">Handel &amp; Einzelhandel</div><div class="g-title">Boutique-Showroom, München</div></div>
+      </div>
+      <div class="gallery-item" data-cat="private">
+        <div class="placeholder"><span>[PLACEHOLDER: private Sammlergarage — Render, 1200×1500]</span></div>
+        <div class="meta"><div class="g-cat">Private Garagen</div><div class="g-title">Sammler-Lounge, Zug</div></div>
+      </div>
+      <div class="gallery-item" data-cat="commercial">
+        <div class="placeholder"><span>[PLACEHOLDER: autorisierter Autohaus-Showroom — Render, 1200×1500]</span></div>
+        <div class="meta"><div class="g-cat">Handel &amp; Einzelhandel</div><div class="g-title">Autorisierter Showroom, Mailand</div></div>
+      </div>
+      <div class="gallery-item" data-cat="exhibition">
+        <div class="placeholder"><span>[PLACEHOLDER: Messestand — Render, 1200×1500]</span></div>
+        <div class="meta"><div class="g-cat">Ausstellungen &amp; Events</div><div class="g-title">Einzelmodell-Stand, Genf</div></div>
+      </div>
+      <div class="gallery-item" data-cat="private">
+        <div class="placeholder"><span>[PLACEHOLDER: Detail Sammlergarage — Render, 1200×1500]</span></div>
+        <div class="meta"><div class="g-cat">Private Garagen</div><div class="g-title">The Carbon Vault</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section-pad contact" id="contact">
+  <div class="wrap">
+    <div class="kicker reveal">Projekt starten</div>
+    <h2 class="reveal">Lassen Sie uns den Raum gestalten,<br>den Ihr Auto verdient.</h2>
+
+    <div class="contact-grid" style="margin-top:56px;">
+      <!-- FORM BACKEND: sign up free at formspree.io, create a form, then replace
+           YOUR_FORM_ID below with the ID they give you (e.g. f/mzbqwxyz).
+           Until that's done, submissions will fail silently client-side. -->
+      <form id="contactForm" class="reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="project">Projektart</label>
+          <select id="project" name="project">
+            <option value="commercial">Handel &amp; Einzelhandel</option>
+            <option value="exhibition">Ausstellungen &amp; Events</option>
+            <option value="private">Private Sammlergarage</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Nachricht</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Anfrage senden</button>
+        <p class="form-msg" id="formMsg">Vielen Dank — Ihre Anfrage wurde gesendet. Wir melden uns innerhalb von zwei Werktagen.</p>
+        <p class="form-msg" id="formMsgError" style="color:var(--c-mid);">Beim Senden ist etwas schiefgelaufen — bitte schreiben Sie uns direkt per E-Mail.</p>
+      </form>
+
+      <div class="reveal">
+        <div class="contact-info">
+          <div class="row"><span>E-Mail</span><span>[PLACEHOLDER: studio@drivenspaces.studio]</span></div>
+        </div>
+        <div class="social-row">
+          <a href="#" target="_blank" rel="noopener">Behance</a>
+          <a href="#" target="_blank" rel="noopener">Pinterest</a>
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="brand-lockup">
+        <span class="hex-mark">
+          <svg width="34" height="34" viewBox="0 0 200 200"><path d="M 13.4,50 L 13.4,150 L 100,200 L 186.6,150 L 186.6,50 L 100,0" fill="none" stroke="#a3a3a3" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/><path d="M 100,0 L 13.4,50" fill="none" stroke="#e61919" stroke-width="15" stroke-linecap="round"/></svg>
+        </span>
+        <span class="wordmark" style="font-size:17px;">DRIVEN<span>SPACES</span></span>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#studio">Studio</a></li>
+            <li><a href="#services">Leistungen</a></li>
+            <li><a href="#case-study">Fallstudie</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Studio</h5>
+          <ul>
+            <li><a href="#contact">Projekt starten</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Behance</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Pinterest</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Driven Spaces. Alle Rechte vorbehalten.</span>
+      <span>Automobile Architektur &amp; Design</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // nav scroll state
+  var header = document.getElementById('siteHeader');
+  function onScroll(){
+    if(window.scrollY > 40){ header.classList.add('scrolled'); }
+    else{ header.classList.remove('scrolled'); }
+  }
+  window.addEventListener('scroll', onScroll);
+  onScroll();
+
+  // mobile nav toggle
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  toggle.addEventListener('click', function(){ links.classList.toggle('open'); });
+  links.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){ links.classList.remove('open'); });
+  });
+
+  // language switcher dropdown (desktop click/hover, mobile shows list inline via CSS)
+  var langSwitcher = document.getElementById('langSwitcher');
+  var langCurrent = document.getElementById('langCurrent');
+  if(langSwitcher && langCurrent){
+    langCurrent.addEventListener('click', function(e){
+      e.stopPropagation();
+      var isOpen = langSwitcher.classList.toggle('open');
+      langCurrent.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    document.addEventListener('click', function(){
+      langSwitcher.classList.remove('open');
+      langCurrent.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  // rotating tagline in hero (brand rule: rotate taglines, never fix on one)
+  var taglines = ['den Rahmen','die Bühne','die Ausstellung'];
+  var slot = document.getElementById('taglineSlot');
+  var ti = 0;
+  setInterval(function(){
+    ti = (ti+1) % taglines.length;
+    slot.style.opacity = 0;
+    setTimeout(function(){ slot.textContent = taglines[ti]; slot.style.opacity = 1; }, 250);
+  }, 3200);
+  slot.style.transition = 'opacity .25s ease';
+
+  // reveal on scroll
+  var reveals = document.querySelectorAll('.reveal');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold:0.15 });
+  reveals.forEach(function(el){ io.observe(el); });
+
+  // gallery filter
+  var filterBtns = document.querySelectorAll('.filter-btn');
+  var items = document.querySelectorAll('.gallery-item');
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var f = btn.getAttribute('data-filter');
+      items.forEach(function(item){
+        if(f === 'all' || item.getAttribute('data-cat') === f){ item.classList.remove('hide'); }
+        else{ item.classList.add('hide'); }
+      });
+    });
+  });
+
+  // contact form — submits to Formspree (see comment on the <form> tag for setup)
+  var form = document.getElementById('contactForm');
+  var msg = document.getElementById('formMsg');
+  var msgError = document.getElementById('formMsgError');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    msg.classList.remove('show');
+    msgError.classList.remove('show');
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function(response){
+      if(response.ok){
+        msg.classList.add('show');
+        form.reset();
+      } else {
+        msgError.classList.add('show');
+      }
+    }).catch(function(){
+      msgError.classList.add('show');
+    });
+  });
+})();
+</script>
+</body>
+</html>
