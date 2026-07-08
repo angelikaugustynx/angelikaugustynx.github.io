@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  NOTE: update every URL below (including the hreflang alternates) once you
+  point a custom domain at this site — they currently use the live GitHub
+  Pages domain, angelikaugustynx.github.io.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://angelikaugustynx.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://angelikaugustynx.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://angelikaugustynx.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://angelikaugustynx.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://angelikaugustynx.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://angelikaugustynx.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://angelikaugustynx.github.io/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://angelikaugustynx.github.io/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://angelikaugustynx.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://angelikaugustynx.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://angelikaugustynx.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://angelikaugustynx.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://angelikaugustynx.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://angelikaugustynx.github.io/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://angelikaugustynx.github.io/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://angelikaugustynx.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://angelikaugustynx.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://angelikaugustynx.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://angelikaugustynx.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://angelikaugustynx.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://angelikaugustynx.github.io/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://angelikaugustynx.github.io/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://angelikaugustynx.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://angelikaugustynx.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://angelikaugustynx.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://angelikaugustynx.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://angelikaugustynx.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://angelikaugustynx.github.io/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://angelikaugustynx.github.io/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://angelikaugustynx.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://angelikaugustynx.github.io/pl/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://angelikaugustynx.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://angelikaugustynx.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://angelikaugustynx.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://angelikaugustynx.github.io/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
